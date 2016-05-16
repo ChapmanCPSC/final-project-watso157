@@ -14,6 +14,9 @@
 		394C7C4F1CE3DF710092317A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394C7C4D1CE3DF710092317A /* LaunchScreen.storyboard */; };
 		394C7C5A1CE3DF710092317A /* watsonChristopher_FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C7C591CE3DF710092317A /* watsonChristopher_FinalProjectTests.swift */; };
 		394C7C651CE3DF710092317A /* watsonChristopher_FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C7C641CE3DF710092317A /* watsonChristopher_FinalProjectUITests.swift */; };
+		394C7C731CE3E3A80092317A /* MainGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C7C721CE3E3A80092317A /* MainGameVC.swift */; };
+		394C7C761CE436B80092317A /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C7C741CE436B80092317A /* CustomViewCell.swift */; };
+		394C7C771CE436B80092317A /* CustomViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 394C7C751CE436B80092317A /* CustomViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		394C7C601CE3DF710092317A /* watsonChristopher_FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watsonChristopher_FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		394C7C641CE3DF710092317A /* watsonChristopher_FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watsonChristopher_FinalProjectUITests.swift; sourceTree = "<group>"; };
 		394C7C661CE3DF710092317A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		394C7C721CE3E3A80092317A /* MainGameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGameVC.swift; sourceTree = "<group>"; };
+		394C7C741CE436B80092317A /* CustomViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
+		394C7C751CE436B80092317A /* CustomViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				394C7C441CE3DF710092317A /* AppDelegate.swift */,
-				394C7C461CE3DF710092317A /* ViewController.swift */,
 				394C7C481CE3DF710092317A /* Main.storyboard */,
+				394C7C461CE3DF710092317A /* ViewController.swift */,
+				394C7C721CE3E3A80092317A /* MainGameVC.swift */,
+				394C7C741CE436B80092317A /* CustomViewCell.swift */,
+				394C7C751CE436B80092317A /* CustomViewCell.xib */,
 				394C7C4B1CE3DF710092317A /* Assets.xcassets */,
 				394C7C4D1CE3DF710092317A /* LaunchScreen.storyboard */,
 				394C7C501CE3DF710092317A /* Info.plist */,
@@ -230,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				394C7C4F1CE3DF710092317A /* LaunchScreen.storyboard in Resources */,
+				394C7C771CE436B80092317A /* CustomViewCell.xib in Resources */,
 				394C7C4C1CE3DF710092317A /* Assets.xcassets in Resources */,
 				394C7C4A1CE3DF710092317A /* Main.storyboard in Resources */,
 			);
@@ -257,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				394C7C471CE3DF710092317A /* ViewController.swift in Sources */,
+				394C7C761CE436B80092317A /* CustomViewCell.swift in Sources */,
+				394C7C731CE3E3A80092317A /* MainGameVC.swift in Sources */,
 				394C7C451CE3DF710092317A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
