@@ -119,7 +119,7 @@ class MainGameVC: UIViewController, UICollectionViewDataSource, UICollectionView
                                 let dicPic = pics[i] as! NSDictionary
                                 let object = FlickrFotoObject()
                                 
-                                object.title = dicPic.valueForKey("title") as! String
+                                object.title = "\(dicPic.valueForKey("title") as! String)i"
                                 object.content = dicPic.valueForKeyPath("media.m") as! String
                                 
                                 //When object is made, add it to the
